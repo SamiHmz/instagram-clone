@@ -1,5 +1,8 @@
-This spotify clone was created using react.js,context api ,material ui ,and sfirebase as a backend service (firebase authentification)
+This spotify clone was created using react.js,context api ,material ui ,and firebase as a backend service (firebase authentification)
 live demo link : https://instagram-clone-1c042.web.app/
+
+to start using the app you need first to sign up : 
+https://instagram-clone-1c042.web.app/signup
 
 
 

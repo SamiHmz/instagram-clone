@@ -1,0 +1,112 @@
+.post {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #ffffff;
+  margin-bottom: 60px;
+}
+.post__img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.post__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #efefef;
+}
+
+.post__top > img {
+  align-self: end;
+}
+
+.post__top__info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 140px;
+}
+
+.post--username {
+  font-weight: 600;
+  color: #262626;
+  font-size: 14px;
+}
+
+.post__top__info > .MuiAvatar-root {
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+.post___icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.post__icons_left {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+.post__bottom__info {
+  display: flex;
+  padding: 0px 10px 10px 10px;
+}
+
+.post__bottom__info__caption {
+  font-size: 14px;
+  color: #262626;
+  margin-left: 6px;
+}
+
+.post__bottom {
+  border: 1px solid #efefef;
+  border-top: none;
+}
+
+.post__bottom__from {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #efefef;
+  padding: 0 15px;
+}
+.post__bottom__from > input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: #262626;
+  font-size: 14px;
+  flex: 1;
+}
+.post__bottom__from > input:focus {
+  outline: none;
+}
+
+.post__bottom__from > button {
+  background: none;
+  border: none;
+  font-weight: 700;
+  color: #0095f6;
+  cursor: pointer;
+}
+
+.post__bottom__comment > button:focus {
+  border: none;
+  outline: none;
+}
+
+.post--comment {
+  font-size: 14px;
+  color: #262626;
+  margin-left: 6px;
+}
+
+.post__bottom__comments {
+  margin: 0 10px 20px 10px;
+}

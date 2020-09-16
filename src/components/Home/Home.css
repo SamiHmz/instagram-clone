@@ -1,0 +1,28 @@
+.home--input {
+  padding: 0 !important;
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.home__post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__upload {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #ffffff;
+  border-top: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+}
+.home__upload > img {
+  margin: 10px 0;
+  height: 30px;
+  cursor: pointer;
+}

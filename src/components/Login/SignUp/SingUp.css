@@ -1,0 +1,54 @@
+.signup {
+  margin-bottom: 20px;
+  width: 350px;
+  margin: 20px auto 0 auto;
+}
+.signup__form__top {
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+.signup__form__top_facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0095f6;
+  width: 270px;
+  min-height: 30px;
+  border: none;
+  margin: 20px 0;
+  color: #ffffff;
+  background-color: #0095f6;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.signup__form__top_facebook img {
+  margin-right: 10px;
+  height: 16px;
+  height: 16px;
+}
+
+.singup__description {
+  width: 200px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #8e8e8e;
+}
+
+.signup__conditions {
+  width: 250px;
+  font-size: 12px;
+  text-align: center;
+  color: #8e8e8e;
+}
+
+.singup__form {
+  display: flex;
+  flex-direction: column;
+}
